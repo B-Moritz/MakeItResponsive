@@ -37,3 +37,57 @@ header {
     background-color: #ddd;
     color: black;
 }
+
+article {
+    background-color: white;
+    height: auto;
+    overflow: auto;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.sideMarginForText {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.imageBox {
+    width: 50%;
+    float: left;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    float: right;
+    padding-right: 10%;
+}
+
+.infoBox {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.textInfo {
+    float: left;
+    padding-left: 10%;
+}
