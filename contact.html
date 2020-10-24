@@ -15,7 +15,7 @@
             <p><strong>Contact us</strong></p>
           </div>
         </div>
-        <div id="titleImage">
+        <div id="TitleImage">
         </div>
     </header>
     <div class="topnav">
@@ -25,16 +25,40 @@
         <a href="contact.html">Contact</a>
     </div>
     <article class="paddingForArticle">
-      <div class="tabContainer">
-        <div class="contactUsGeneral hoverElem">
+      <form class="tabContainer">
+        <input id="ContactUsCheckbox" class="checkboxCommon" name="tabNav" type="radio" checked="checked">
+        <div class="contactUsGeneral hoverElem tabItem">
           <label for="ContactUsCheckbox">
             <div id="ContactUsGeneralImage" class="imageContainer"></div>
             <h2>Interested in our services?</h2>
           </label>
-          <input id="ContactUsCheckbox" class="checkboxCommon" type="checkbox">
+        </div>
+        <a href="#" class="navLink"><h2>Interested in our services?</h2></a>
+        <div class="hiddenBox1 commonHiddenBox">
         </div>
 
-      </div>
+        <input id="InnovationCampCheckbox" class="checkboxCommon" name="tabNav" type="radio">
+        <div class="innovationCamp hoverElem tabItem">
+          <label for="InnovationCampCheckbox">
+            <div id="InnovationCampImage" class="imageContainer"></div>
+            <h2>Questions to innovation camp?</h2>
+          </label>
+        </div>
+        <a href="#" class="navLink"><h2>Questions to innovation camp?</h2></a>
+        <div class="hiddenBox2 commonHiddenBox">
+        </div>
+
+        <input id="SocialMediaCheckbox" class="checkboxCommon" name="tabNav" type="radio">
+        <div class="socialMedia hoverElem tabItem">
+          <label for="SocialMediaCheckbox">
+            <div id="SocialMediaImage" class="imageContainer"></div>
+            <h2>Meet us on social media</h2>
+          </label>
+        </div>
+        <a href="#" class="navLink"><h2>Meet us on social media</h2></a>
+        <div class="hiddenBox3 commonHiddenBox">
+        </div>
+      </form>
     </article>
 </body>
 </html>

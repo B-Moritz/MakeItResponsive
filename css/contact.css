@@ -39,7 +39,7 @@ header > div {
   width: auto;
 }
 
-#titleImage {
+#TitleImage {
   background: url("../images/ContactUsTitle.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -50,25 +50,41 @@ header > div {
 
 /*Main article*/
 
+.navLink {
+  display: none;
+}
+
 .paddingForArticle {
   padding-top: 50px;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 16vw;
+  padding-right: 16vw;
 }
 
 .tabContainer {
-  border-style: solid;
-  border-color: black;
+  padding-top: 1px;
+  padding-bottom: 1px;
   background-color: rgba(50, 50, 50, 1);
   color: white;
   position: relative;
+  overflow: auto;
+  height: 2000px;
 }
 
-.contactUsGeneral {
-  margin: 20px;
-  padding: 20px;
-  width: 200px;
+.tabItem {
+  float: left;
+  margin: 3%;
+  padding: 1vw;
+  width: 13vw;
+  height: 295px;
   background-color: rgba(100, 100, 100, 1);
+}
+
+.innovationCamp {
+  padding-bottom: 0px;
+}
+
+.innovationCamp h2 {
+  font-size: 23px;
 }
 
 .checkboxCommon {
@@ -82,7 +98,7 @@ header > div {
 .imageContainer {
   overflow: auto;
   height: 160px;
-  width: 160px;
+  width: 11vw;
   border-radius: 50px 50px 50px 50px;
 }
 
@@ -97,15 +113,31 @@ header > div {
   color: black;
 }
 
+.commonHiddenBox {
+  height: 500px;
+  overflow: auto;
+  display: none;
+  background-color: rgba(250, 230, 200, 0.7);
+  position: absolute;
+  top: 322px;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#ContactUsCheckbox:checked ~ .hiddenBox1, #InnovationCampCheckbox:checked ~ .hiddenBox2, #SocialMediaCheckbox:checked ~ .hiddenBox3 {
+  display: block;
+}
+
+#ContactUsCheckbox:checked ~ .contactUsGeneral, #InnovationCampCheckbox:checked ~ .innovationCamp, #SocialMediaCheckbox:checked ~ .socialMedia {
+  background-color: rgba(250, 230, 200, 0.7);
+  color: black;
+  margin-bottom: 0;
+}
+
+
 
 @media only screen and (max-width: 1100px) {
-  header {
-    height: 40vw;
-  }
-
-  .imageBox {
-    height: 40vw;
-  }
 
   .titleContainer {
     width: 25vw;
@@ -113,12 +145,24 @@ header > div {
   }
 
   .titleContainer h1, .titleContainer p {
-    font-size: 4vw;
+    font-size: 3vw;
+  }
+
+  .tabItem {
+    margin-right: 0;
+    width: 153px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .imageContainer {
+    width: 133px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .imageBox {
+
+  #TitleImage {
     height: 200px;
     width: 100%;
     background: url("../images/ContactUsTitleMobile.jpg");
@@ -137,4 +181,52 @@ header > div {
   .titleContainer h1, .titleContainer p {
     font-size: 20px;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .paddingForArticle {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .checkboxCommon, .imageContainer, .tabItem {
+    display: none;
+  }
+
+  .navLink {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(100, 100, 100, 1);
+    width: 33.3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20vw;
+  }
+
+  .navLink h2 {
+    font-size: 4vw;
+  }
+
+  .navLink:hover {
+    background-color: rgba(250, 230, 200, 0.7);
+    color: black;
+  }
+
+  .hiddenBox1 {
+    top: 250px;
+    display: block;
+  }
+
+  .hiddenBox2 {
+    top: 800px;
+    display: block;
+  }
+
+  .hiddenBox3 {
+    top: 1350px;
+    display: block;
+  }
+
 }
