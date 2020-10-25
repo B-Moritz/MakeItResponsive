@@ -67,15 +67,16 @@ header > div {
   color: white;
   position: relative;
   overflow: auto;
-  height: 2000px;
+  height: 950px;
 }
 
 .tabItem {
   float: left;
   margin: 3%;
+  margin-bottom: 0;
   padding: 1vw;
   width: 13vw;
-  height: 295px;
+  height: 21.6vw;
   background-color: rgba(100, 100, 100, 1);
 }
 
@@ -97,7 +98,7 @@ header > div {
 
 .imageContainer {
   overflow: auto;
-  height: 160px;
+  height: 10.7vw;
   width: 11vw;
   border-radius: 50px 50px 50px 50px;
 }
@@ -114,15 +115,16 @@ header > div {
 }
 
 .commonHiddenBox {
-  height: 500px;
+  height: 550px;
   overflow: auto;
   display: none;
   background-color: rgba(250, 230, 200, 0.7);
   position: absolute;
-  top: 322px;
+  top: 23.7vw;
   width: 94%;
   margin-left: 3%;
   margin-right: 3%;
+  color: black;
 }
 
 #ContactUsCheckbox:checked ~ .hiddenBox1, #InnovationCampCheckbox:checked ~ .hiddenBox2, #SocialMediaCheckbox:checked ~ .hiddenBox3 {
@@ -135,6 +137,29 @@ header > div {
   margin-bottom: 0;
 }
 
+.hiddenBox1 {
+  padding: 20px;
+}
+
+.nameInput {
+  float: left;
+  margin-left: 10px;
+}
+
+textarea {
+  width: 75%;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+[type*="submit"] {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+[type*="submit"]:hover {
+  background-color: rgba(250, 230, 200, 0.7);
+}
 
 
 @media only screen and (max-width: 1100px) {
@@ -153,12 +178,26 @@ header > div {
     width: 153px;
     padding-left: 10px;
     padding-right: 10px;
+    height: 25vw;
   }
 
   .imageContainer {
     width: 133px;
   }
+
+  .commonHiddenBox {
+    top: 26vw;
+  }
+
+  .commonHiddenBox {
+    top: 27.1vw;
+  }
+
+  #ContactUsGeneralImage {
+    background-position: -15px 0px;
+  }
 }
+
 
 @media only screen and (max-width: 500px) {
 
@@ -184,6 +223,10 @@ header > div {
 }
 
 @media only screen and (max-width: 800px) {
+  .tabContainer {
+    height: 2000px;
+  }
+
   .paddingForArticle {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -203,6 +246,8 @@ header > div {
     padding-left: 10px;
     padding-right: 10px;
     height: 20vw;
+    position: sticky;
+    top: 0;
   }
 
   .navLink h2 {
