@@ -109,6 +109,19 @@ header > div {
   background-size: cover;
 }
 
+#InnovationCampImage {
+  background: url("../images/startup-594090_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#SocialMediaImage {
+  background: url("../images/SocialMediaIcons.png") 0 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+}
+
 .hoverElem:hover {
   background-color: rgba(250, 230, 200, 0.7);
   color: black;
@@ -137,11 +150,11 @@ header > div {
   margin-bottom: 0;
 }
 
-.hiddenBox1 {
+.hiddenBox1, .hiddenBox3 {
   padding: 20px;
 }
 
-.nameInput {
+.textInput {
   float: left;
   margin-left: 10px;
 }
@@ -152,6 +165,7 @@ textarea {
   margin-top: 30px;
   margin-left: 10px;
 }
+
 [type*="submit"] {
   margin-left: 10px;
   margin-top: 10px;
@@ -159,6 +173,36 @@ textarea {
 
 [type*="submit"]:hover {
   background-color: rgba(250, 230, 200, 0.7);
+}
+
+.socialMediaIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px 30px 30px 30px;
+  border-color: rgba(0,0,0,0);
+}
+
+.socialMediaIcons {
+  margin-top: 50px;
+}
+
+.socialMediaIcons a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  position: relative;
+}
+
+.socialMediaIcon + h4 {
+  position: absolute;
+  left: 80px;
+  top: -30px;
+}
+
+.socialMediaIcons a:hover {
+  color: white;
 }
 
 
