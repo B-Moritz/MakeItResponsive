@@ -67,7 +67,7 @@ header > div {
   color: white;
   position: relative;
   overflow: auto;
-  height: 950px;
+  height: 1000px;
 }
 
 .tabItem {
@@ -128,7 +128,7 @@ header > div {
 }
 
 .commonHiddenBox {
-  height: 550px;
+  height: 620px;
   overflow: auto;
   display: none;
   background-color: rgba(250, 230, 200, 0.7);
@@ -140,17 +140,22 @@ header > div {
   color: black;
 }
 
+.commonHiddenBox label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 #ContactUsCheckbox:checked ~ .hiddenBox1, #InnovationCampCheckbox:checked ~ .hiddenBox2, #SocialMediaCheckbox:checked ~ .hiddenBox3 {
   display: block;
 }
 
-#ContactUsCheckbox:checked ~ .contactUsGeneral, #InnovationCampCheckbox:checked ~ .innovationCamp, #SocialMediaCheckbox:checked ~ .socialMedia {
+#ContactUsCheckbox:checked ~ label .contactUsGeneral, #InnovationCampCheckbox:checked ~ label .innovationCamp, #SocialMediaCheckbox:checked ~ label .socialMedia {
   background-color: rgba(250, 230, 200, 0.7);
   color: black;
   margin-bottom: 0;
 }
 
-.hiddenBox1, .hiddenBox3 {
+.hiddenBox1, .hiddenBox2, .hiddenBox3 {
   padding: 20px;
 }
 
@@ -230,16 +235,14 @@ textarea {
   }
 
   .commonHiddenBox {
-    top: 26vw;
-  }
-
-  .commonHiddenBox {
     top: 27.1vw;
+    height: 710px;
   }
 
   #ContactUsGeneralImage {
     background-position: -15px 0px;
   }
+
 }
 
 
@@ -268,7 +271,7 @@ textarea {
 
 @media only screen and (max-width: 800px) {
   .tabContainer {
-    height: 2000px;
+    height: 2500px;
   }
 
   .paddingForArticle {
@@ -309,13 +312,14 @@ textarea {
   }
 
   .hiddenBox2 {
-    top: 800px;
+    top: 1000px;
     display: block;
   }
 
   .hiddenBox3 {
-    top: 1350px;
+    top: 1750px;
     display: block;
   }
+
 
 }
