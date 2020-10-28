@@ -134,7 +134,7 @@ header{
 .container {
     width: 95%;
     max-width: 980px;
-    border: yellow solid 2px;
+    // border: yellow solid 2px;
     margin: 0 auto;
 }
 
@@ -142,7 +142,7 @@ header{
 .evetnContainer{
     display: flex;
     justify-content: space-between;
-    margin: 2em;
+    margin: 4em;
     height: 100%;
 
 
@@ -165,7 +165,7 @@ header{
     width: 33%;
 
     padding: 16px 25px;
-    text-align: center;
+    text-align: left;
     color: #15476a;
 }
 
@@ -176,5 +176,18 @@ header{
     padding: 0em 2em;
     // color: #9ae0e0;
     color: white;
+}
+
+
+.signupButton{
+    background: white;
+    color: #15476a;
+    width: 15%;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 0 88%;
+
+
+
 }
 
