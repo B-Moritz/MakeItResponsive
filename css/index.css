@@ -10,7 +10,10 @@ body {
 
 /* Style the header */
 header {
-    background-color: #a2a2a2;
+    background: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: #a2a2a2;
     padding: 50px;
     text-align: center;
 }
@@ -99,6 +102,27 @@ header{
 
 
 }
+
+
+
+
+/* Style for logo*/
+
+
+
+.log{
+
+    width: fit-content;
+    background: #5fa9a9;
+    padding: 2em;
+    color: #ffffff;
+    border: white solid 0.2em;
+
+}
+
+
+
+
 
 
 /* Style the Schedule*/
