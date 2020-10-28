@@ -1,0 +1,325 @@
+/*
+  This file contains styles for the contact.html page.
+*/
+
+header {
+  position: relative;
+  height: 35vw;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+header > div {
+  overflow: auto;
+}
+
+.topnav [href="contact.html"] {
+  color: orange;
+}
+
+.titleContainer div {
+  position: relative;
+  bottom: 0px;
+}
+
+.titleContainer p {
+  margin-top: 5vw;
+  font-size: 3vw;
+}
+
+.titleContainer {
+  position: absolute;
+  height: 100%;
+  left: 20vw;
+  background-color: rgba(250, 230, 200, 0.7);
+  padding: 50px;
+  width: auto;
+}
+
+#TitleImage {
+  background: url("../images/ContactUsTitle.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 35vw;
+  width: 100%;
+}
+
+/*Main article*/
+
+.navLink {
+  display: none;
+}
+
+.paddingForArticle {
+  padding-top: 50px;
+  padding-left: 16vw;
+  padding-right: 16vw;
+}
+
+.tabContainer {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: rgba(50, 50, 50, 1);
+  color: white;
+  position: relative;
+  overflow: auto;
+  height: 1000px;
+}
+
+.tabItem {
+  float: left;
+  margin: 3%;
+  margin-bottom: 0;
+  padding: 1vw;
+  width: 13vw;
+  height: 21.6vw;
+  background-color: rgba(100, 100, 100, 1);
+}
+
+.innovationCamp {
+  padding-bottom: 0px;
+}
+
+.innovationCamp h2 {
+  font-size: 23px;
+}
+
+.checkboxCommon {
+  opacity: 0;
+  height: 10px;
+  width: 10px;
+  margin: 0;
+  position: absolute;
+}
+
+.imageContainer {
+  overflow: auto;
+  height: 10.7vw;
+  width: 11vw;
+  border-radius: 50px 50px 50px 50px;
+}
+
+#ContactUsGeneralImage {
+  background: url("../images/ContactGeneral.jpg") -50px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#InnovationCampImage {
+  background: url("../images/startup-594090_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#SocialMediaImage {
+  background: url("../images/SocialMediaIcons.png") 0 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+}
+
+.hoverElem:hover {
+  background-color: rgba(250, 230, 200, 0.7);
+  color: black;
+}
+
+.commonHiddenBox {
+  height: 620px;
+  overflow: auto;
+  display: none;
+  background-color: rgba(250, 230, 200, 0.7);
+  position: absolute;
+  top: 23.7vw;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: black;
+}
+
+.commonHiddenBox label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#ContactUsCheckbox:checked ~ .hiddenBox1, #InnovationCampCheckbox:checked ~ .hiddenBox2, #SocialMediaCheckbox:checked ~ .hiddenBox3 {
+  display: block;
+}
+
+#ContactUsCheckbox:checked ~ label .contactUsGeneral, #InnovationCampCheckbox:checked ~ label .innovationCamp, #SocialMediaCheckbox:checked ~ label .socialMedia {
+  background-color: rgba(250, 230, 200, 0.7);
+  color: black;
+  margin-bottom: 0;
+}
+
+.hiddenBox1, .hiddenBox2, .hiddenBox3 {
+  padding: 20px;
+}
+
+.textInput {
+  float: left;
+  margin-left: 10px;
+}
+
+textarea {
+  width: 75%;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+[type*="submit"] {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+[type*="submit"]:hover {
+  background-color: rgba(250, 230, 200, 0.7);
+}
+
+.socialMediaIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px 30px 30px 30px;
+  border-color: rgba(0,0,0,0);
+}
+
+.socialMediaIcons {
+  margin-top: 50px;
+}
+
+.socialMediaIcons a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  position: relative;
+}
+
+.socialMediaIcon + h4 {
+  position: absolute;
+  left: 80px;
+  top: -30px;
+}
+
+.socialMediaIcons a:hover {
+  color: white;
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+  .titleContainer {
+    width: 25vw;
+    padding: 5vw;
+  }
+
+  .titleContainer h1, .titleContainer p {
+    font-size: 3vw;
+  }
+
+  .tabItem {
+    margin-right: 0;
+    width: 153px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25vw;
+  }
+
+  .imageContainer {
+    width: 133px;
+  }
+
+  .commonHiddenBox {
+    top: 27.1vw;
+    height: 710px;
+  }
+
+  #ContactUsGeneralImage {
+    background-position: -15px 0px;
+  }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  #TitleImage {
+    height: 200px;
+    width: 100%;
+    background: url("../images/ContactUsTitleMobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    height: 200px;
+  }
+
+  .titleContainer {
+    width: 150px;
+  }
+
+  .titleContainer h1, .titleContainer p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .tabContainer {
+    height: 2500px;
+  }
+
+  .paddingForArticle {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .checkboxCommon, .imageContainer, .tabItem {
+    display: none;
+  }
+
+  .navLink {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(100, 100, 100, 1);
+    width: 33.3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20vw;
+    position: sticky;
+    top: 0;
+  }
+
+  .navLink h2 {
+    font-size: 4vw;
+  }
+
+  .navLink:hover {
+    background-color: rgba(250, 230, 200, 0.7);
+    color: black;
+  }
+
+  .hiddenBox1 {
+    top: 250px;
+    display: block;
+  }
+
+  .hiddenBox2 {
+    top: 1000px;
+    display: block;
+  }
+
+  .hiddenBox3 {
+    top: 1750px;
+    display: block;
+  }
+
+
+}
