@@ -28,12 +28,9 @@ header > div {
   height: auto;
   top: 2.66vw;
   left: 50px;
-  background-color: #5fa9a9;
+  background-color: #15476a;
   padding: 20px;
   width: auto;
-  border-style: solid;
-  border-color: white;
-  border-width: 3px;
 }
 
 #TitleImage {
