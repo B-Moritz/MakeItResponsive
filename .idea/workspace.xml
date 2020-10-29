@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f968fd1-ff19-4227-a1dd-55eedef10463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/staff.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg" afterDir="false" />
+    <list default="true" id="5f968fd1-ff19-4227-a1dd-55eedef10463" name="Default Changelist" comment="lagt til egen staff.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staff.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +86,13 @@
       <workItem from="1603379282722" duration="620000" />
       <workItem from="1603966980794" duration="353000" />
     </task>
+    <task id="LOCAL−00001" summary="lagt til egen staff.css">
+      <created>1603970715593</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1603970715593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,11 +110,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lagt til egen staff.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="lagt til egen staff.css" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="195" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603970288983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="195" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603970288983" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603970718275">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603970718275" />
     <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603370079297">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

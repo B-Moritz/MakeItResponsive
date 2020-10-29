@@ -1,7 +1,7 @@
 .container {
     width: 95%;
     max-width: 980px;
-// border: yellow solid 2px;
+ // border: yellow solid 2px;
     margin: 0 auto;
 }
 
@@ -16,8 +16,6 @@
 
 .image-container {
     width: 33%;
-
-    /*padding: 16px 25px;*/
     text-align: left;
     color: #15476a;
 }
@@ -26,11 +24,25 @@
     background: #15476a;
     width: 66%;
     padding: 0em 2em;
-// color: #9ae0e0;
     color: white;
 }
 
 .profileImage {
     height: 200px;
     float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .person-container {
+        flex-direction: column;
+    }
+    .person-info {
+        width: 100%;
+    }
+    .image-container {
+        width: 100%;
+    }
+    .profileImage {
+        float: left;
+    }
 }
