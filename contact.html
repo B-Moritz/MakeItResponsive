@@ -25,8 +25,9 @@
         <a href="./contact.html">Contact</a>
     </div>
     <article role="article" class="paddingForArticle">
-      <form class="tabContainer">
-        <input id="ContactUsCheckbox" class="checkboxCommon" name="tabNav" type="radio" checked="checked" tabindex="0">
+      <form role="radiogroup" class="tabContainer">
+        <!--Start contact navigation-->
+        <input role="radio" aria-checked="true" id="ContactUsCheckbox" class="checkboxCommon" name="tabNav" type="radio" checked="checked" tabindex="0">
         <label for="ContactUsCheckbox">
           <div class="contactUsGeneral hoverElem tabItem">
             <div id="ContactUsGeneralImage" class="imageContainer"></div>
@@ -35,7 +36,7 @@
         </label>
         <a href="#Section1" class="navLink borderRight"><h2>Interested in our services?</h2></a>
 
-        <input id="InnovationCampCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
+        <input role="radio" id="InnovationCampCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
         <label for="InnovationCampCheckbox">
           <div class="innovationCamp hoverElem tabItem">
             <div id="InnovationCampImage" class="imageContainer"></div>
@@ -44,7 +45,7 @@
         </label>
         <a href="#Section2" class="navLink borderRight"><h2>Questions to innovation camp?</h2></a>
 
-        <input id="SocialMediaCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
+        <input role="radio" id="SocialMediaCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
         <label for="SocialMediaCheckbox">
           <div class="socialMedia hoverElem tabItem">
             <div id="SocialMediaImage" class="imageContainer"></div>
@@ -53,6 +54,7 @@
         </label>
         <a href="#Section3" class="navLink"><h2>Meet us on social media</h2></a>
 
+        <!--Start contact boxes-->
         <div class="hiddenBox1 commonHiddenBox" id="Section1">
           <h3>Send us a message if you are interested in our services:</h3>
           <p>Please fill out this web form, send us an e-mail or make a call.</p>
