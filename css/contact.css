@@ -2,44 +2,11 @@
   This file contains styles for the contact.html page.
 */
 
-header {
-  position: relative;
-  height: 30vw;
-  padding: 0;
-}
-
-h1 {
-  font-size: 3vw;
-}
-
-header > div {
-  overflow: auto;
-}
-
-
-.titleContainer div {
-  position: relative;
-  bottom: 0px;
-}
-
-.titleContainer {
-  color: white;
-  position: absolute;
-  height: auto;
-  top: 2.66vw;
-  left: 50px;
-  background-color: #15476a;
-  padding: 20px;
-  width: auto;
-}
-
 #TitleImage {
-  background: url("../images/ContactUsTitle.jpg");
-  background-size: contain;
+  background: url("../images/joel-filipe-WjnF1Tp-p3I-unsplash.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 30vw;
-  width: 100%;
 }
 
 /*Main article*/
@@ -56,7 +23,6 @@ header > div {
 }
 
 .paddingForArticle {
-  padding-top: 50px;
   padding-left: 16vw;
   padding-right: 16vw;
 }
@@ -64,11 +30,11 @@ header > div {
 .tabContainer {
   padding-top: 1px;
   padding-bottom: 1px;
-  background-color: #15476a;
+  background-color: white;
   color: white;
   position: relative;
   overflow: auto;
-  height: 1000px;
+  height: 1050px;
 }
 
 .tabItem {
@@ -76,7 +42,7 @@ header > div {
   margin: 3%;
   margin-bottom: 0;
   padding: 1vw;
-  width: 13vw;
+  width: 27.32%;
   height: 21.6vw;
   background-color: rgba(100, 100, 100, 1);
 }
@@ -100,8 +66,15 @@ header > div {
 .imageContainer {
   overflow: auto;
   height: 10.7vw;
-  width: 11vw;
-  border-radius: 50px 50px 50px 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.tabItem h2 {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #ContactUsGeneralImage {
@@ -129,12 +102,12 @@ header > div {
 }
 
 .commonHiddenBox {
-  height: 620px;
+  height: 640px;
   overflow: auto;
   display: none;
   background-color: #5fa9a9;
   position: absolute;
-  top: 23.7vw;
+  top: 26.7vw;
   width: 94%;
   margin-left: 3%;
   margin-right: 3%;
@@ -220,7 +193,7 @@ textarea {
 
 @media only screen and (min-width: 1500px) {
   .tabContainer {
-    height: 71.6vw;
+    height: 72.6vw;
   }
 
   .commonHiddenBox {
@@ -229,31 +202,18 @@ textarea {
 }
 
 
-@media only screen and (max-width: 1100px) {
-
-  .titleContainer {
-    width: auto;
-    padding: 20px;
-  }
-
-  .titleContainer h1, .titleContainer p {
-    font-size: 3vw;
-  }
+@media only screen and (max-width: 1200px) {
 
   .tabItem {
     margin-right: 0;
-    width: 153px;
+    width: 29.33%;
     padding-left: 10px;
     padding-right: 10px;
-    height: 25vw;
-  }
-
-  .imageContainer {
-    width: 133px;
+    height: 29vw;
   }
 
   .commonHiddenBox {
-    top: 27.1vw;
+    top: 33.1vw;
     height: 700px;
   }
 
@@ -261,31 +221,12 @@ textarea {
     background-position: -15px 0px;
   }
 
+  .tabContainer {
+    height: 1100px;
+  }
+
 }
 
-
-@media only screen and (max-width: 500px) {
-
-  #TitleImage {
-    height: 200px;
-    width: 100%;
-    background: url("../images/ContactUsTitleMobile.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  header {
-    height: 200px;
-  }
-
-  .titleContainer {
-    width: 150px;
-  }
-
-  .titleContainer h1, .titleContainer p {
-    font-size: 20px;
-  }
-}
 
 @media only screen and (max-width: 800px) {
 
@@ -328,8 +269,8 @@ textarea {
   }
 
   .navLink:hover {
-    background-color: rgba(250, 230, 200, 0.7);
-    color: black;
+    background-color: #5fa9a9;
+    color: #15476a;
   }
 
   .hiddenBox1 {
@@ -349,8 +290,6 @@ textarea {
     display: block;
     height: auto;
   }
-
-
 }
 
 @media only screen and (max-width: 400px) {
