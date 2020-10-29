@@ -22,11 +22,6 @@ header > div {
   bottom: 0px;
 }
 
-.titleContainer p {
-  margin-top: 5vw;
-  font-size: 3vw;
-}
-
 .titleContainer {
   color: white;
   position: absolute;
@@ -51,6 +46,13 @@ header > div {
 }
 
 /*Main article*/
+
+.heading1 {
+  color: #15476a;
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 20px;
+}
 
 .navLink {
   display: none;
