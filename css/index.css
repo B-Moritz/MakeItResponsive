@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "calibri", "arial", "sans-serif";
+    font-family: "calibri", "arial", sans-serif;
 }
 
 body {
@@ -17,6 +17,17 @@ header {
     padding: 50px;
     text-align: center;
 }
+
+.log{
+
+    width: fit-content;
+    background: #5fa9a9;
+    padding: 2em;
+    color: #ffffff;
+    border: white solid 0.2em;
+
+}
+
 
 /* Style the top navigation bar */
 .topnav {
@@ -70,7 +81,7 @@ article {
 h2 {
     font-size: 25px;
     font-style: normal;
-    text-align: center;
+    text-align: left;
 }
 
 

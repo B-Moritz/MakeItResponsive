@@ -1,0 +1,48 @@
+.container {
+    width: 95%;
+    max-width: 980px;
+ // border: yellow solid 2px;
+    margin: 0 auto;
+}
+
+
+.person-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 4em;
+    height: 100%;
+
+}
+
+.image-container {
+    width: 33%;
+    text-align: left;
+    color: #15476a;
+}
+
+.person-info {
+    background: #15476a;
+    width: 66%;
+    padding: 0 2em;
+    color: white;
+}
+
+.profileImage {
+    height: 200px;
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .person-container {
+        flex-direction: column;
+    }
+    .person-info {
+        width: 100%;
+    }
+    .image-container {
+        width: 100%;
+    }
+    .profileImage {
+        float: left;
+    }
+}
