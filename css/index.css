@@ -69,26 +69,3 @@ h2 {
     text-align: center;
 }
 
-
-.imageBox {
-    width: 50%;
-    float: left;
-}
-
-.profileImage {
-    width: 150px;
-    height: 150px;
-    float: right;
-    padding-right: 20%;
-}
-
-.infoBox {
-    width: 50%;
-    float: left;
-    text-align: center;
-}
-
-.textInfo {
-    float: left;
-    padding-left: 20%;
-}
