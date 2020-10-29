@@ -4,7 +4,7 @@
 
 header {
   position: relative;
-  height: 35vw;
+  height: 30vw;
   padding: 0;
 }
 
@@ -16,26 +16,20 @@ header > div {
   overflow: auto;
 }
 
-.topnav [href="contact.html"] {
-  color: orange;
-}
 
 .titleContainer div {
   position: relative;
   bottom: 0px;
 }
 
-.titleContainer p {
-  margin-top: 5vw;
-  font-size: 3vw;
-}
-
 .titleContainer {
+  color: white;
   position: absolute;
-  height: 100%;
-  left: 20vw;
-  background-color: rgba(250, 230, 200, 0.7);
-  padding: 50px;
+  height: auto;
+  top: 2.66vw;
+  left: 50px;
+  background-color: #15476a;
+  padding: 20px;
   width: auto;
 }
 
@@ -44,11 +38,18 @@ header > div {
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 35vw;
+  height: 30vw;
   width: 100%;
 }
 
 /*Main article*/
+
+.heading1 {
+  color: #15476a;
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 20px;
+}
 
 .navLink {
   display: none;
@@ -63,11 +64,11 @@ header > div {
 .tabContainer {
   padding-top: 1px;
   padding-bottom: 1px;
-  background-color: rgba(50, 50, 50, 1);
+  background-color: #15476a;
   color: white;
   position: relative;
   overflow: auto;
-  height: 1075px;
+  height: 1000px;
 }
 
 .tabItem {
@@ -78,7 +79,6 @@ header > div {
   width: 13vw;
   height: 21.6vw;
   background-color: rgba(100, 100, 100, 1);
-  border-radius: 5px 5px 0 0;
 }
 
 .innovationCamp {
@@ -124,28 +124,21 @@ header > div {
 }
 
 .hoverElem:hover {
-  background-color: rgba(250, 230, 200, 0.7);
-  color: black;
-}
-
-.checkboxCommon:focus + label div {
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgba(100, 150, 230, 1);
+  background-color: #5fa9a9;
+  color: #15476a;
 }
 
 .commonHiddenBox {
-  height: 680px;
+  height: 620px;
   overflow: auto;
   display: none;
-  background-color: rgba(250, 230, 200, 0.7);
+  background-color: #5fa9a9;
   position: absolute;
   top: 23.7vw;
   width: 94%;
   margin-left: 3%;
   margin-right: 3%;
-  color: black;
-  border-radius: 0 5px 5px 5px;
+  color: #15476a;
 }
 
 .commonHiddenBox label {
@@ -158,8 +151,8 @@ header > div {
 }
 
 #ContactUsCheckbox:checked ~ label .contactUsGeneral, #InnovationCampCheckbox:checked ~ label .innovationCamp, #SocialMediaCheckbox:checked ~ label .socialMedia {
-  background-color: rgba(250, 230, 200, 0.7);
-  color: black;
+  background-color: #5fa9a9;
+  color: #15476a;
   margin-bottom: 0;
 }
 
@@ -185,7 +178,8 @@ textarea {
 }
 
 [type*="submit"]:hover {
-  background-color: rgba(250, 230, 200, 0.7);
+  background-color: #15476a;
+  color: #5fa9a9;
 }
 
 .socialMediaIcon {
@@ -218,6 +212,12 @@ textarea {
   color: white;
 }
 
+.checkboxCommon:focus + label div {
+  border-style: solid;
+  border-color: rgba(250, 150, 150);
+  border-width: 3px;
+}
+
 @media only screen and (min-width: 1500px) {
   .tabContainer {
     height: 71.6vw;
@@ -232,8 +232,8 @@ textarea {
 @media only screen and (max-width: 1100px) {
 
   .titleContainer {
-    width: 25vw;
-    padding: 5vw;
+    width: auto;
+    padding: 20px;
   }
 
   .titleContainer h1, .titleContainer p {
