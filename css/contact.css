@@ -67,7 +67,7 @@ header > div {
   color: white;
   position: relative;
   overflow: auto;
-  height: 1000px;
+  height: 1075px;
 }
 
 .tabItem {
@@ -129,12 +129,12 @@ header > div {
 
 .checkboxCommon:focus + label div {
   border-style: solid;
-  border-width: 5px;
+  border-width: 2px;
   border-color: rgba(100, 150, 230, 1);
 }
 
 .commonHiddenBox {
-  height: 620px;
+  height: 680px;
   overflow: auto;
   display: none;
   background-color: rgba(250, 230, 200, 0.7);
@@ -216,6 +216,16 @@ textarea {
   color: white;
 }
 
+@media only screen and (min-width: 1500px) {
+  .tabContainer {
+    height: 71.6vw;    
+  }
+
+  .commonHiddenBox {
+    height: 45.3vw;
+  }
+}
+
 
 @media only screen and (max-width: 1100px) {
 
@@ -242,7 +252,7 @@ textarea {
 
   .commonHiddenBox {
     top: 27.1vw;
-    height: 710px;
+    height: 700px;
   }
 
   #ContactUsGeneralImage {
@@ -278,7 +288,7 @@ textarea {
 @media only screen and (max-width: 800px) {
 
   .tabContainer {
-    height: 2500px;
+    height: 2520px;
   }
 
   .paddingForArticle {
@@ -309,7 +319,7 @@ textarea {
     border-right-color: rgba(200, 200, 200, 1);
     border-right-width: 3px;
   }
-  
+
 
   .navLink h2 {
     font-size: 4vw;
@@ -323,17 +333,43 @@ textarea {
   .hiddenBox1 {
     top: 250px;
     display: block;
+    height: auto;
   }
 
   .hiddenBox2 {
-    top: 1000px;
+    top: 1070px;
     display: block;
+    height: auto;
   }
 
   .hiddenBox3 {
-    top: 1750px;
+    top: 1890px;
     display: block;
+    height: auto;
   }
 
 
+}
+
+@media only screen and (max-width: 400px) {
+  .hiddenBox1 {
+    top: 250px;
+  }
+
+  .hiddenBox2 {
+    top: 1250px;
+  }
+
+  .hiddenBox3 {
+    top: 2200px;
+  }
+
+  .tabContainer {
+    height: 3000px;
+  }
+
+  .socialMediaIcon + h4 {
+    font-size: 15px;
+    top: 5px;
+  }
 }
