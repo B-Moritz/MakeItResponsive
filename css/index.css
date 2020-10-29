@@ -110,13 +110,13 @@ header{
 
 
 
-.log{
+.logo{
 
     width: fit-content;
-    background: #5fa9a9;
+    background: #15476a;
     padding: 2em;
     color: #ffffff;
-    border: white solid 0.2em;
+    // border: white solid 0.2em;
 
 }
 
@@ -158,6 +158,19 @@ header{
     font-size: 6em;
     font-weight: bold;
 
+
+}
+
+
+.pageTxt
+
+{
+    font-size: 3em;
+    font-weight: bold;
+    color: #15476a;
+    margin: 1.2em;
+
+
 }
 
 .eventDato{
@@ -189,5 +202,18 @@ header{
 
 
 
+}
+
+
+@media (max-width: 600px) {
+    .evetnContainer {
+        flex-direction: column;
+    }
+
+    .eventDato,
+    .eventInfo
+    {
+        width: 100%;
+    }
 }
 
