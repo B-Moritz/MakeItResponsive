@@ -5,11 +5,15 @@
 
 body {
     margin: 0;
+    background: rgb(255, 255, 255);
 }
 
 /* Style the header */
 header {
-    background-color: #74b5e7;
+    background: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: #a2a2a2;
     padding: 50px;
     text-align: center;
 }
@@ -17,7 +21,7 @@ header {
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333333;
+    background-color: #15476a;
     padding-left: 18%;
 }
 
@@ -29,7 +33,7 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #333333;
+    background-color: #15476a;
 }
 
 
@@ -92,3 +96,124 @@ h2 {
     float: left;
     padding-left: 20%;
 }
+
+
+header{
+
+
+}
+
+
+
+
+/* Style for logo*/
+
+
+
+.logo{
+
+    width: fit-content;
+    background: #15476a;
+    padding: 2em;
+    color: #ffffff;
+    // border: white solid 0.2em;
+
+}
+
+
+
+
+
+
+/* Style the Schedule*/
+
+
+
+
+
+.container {
+    width: 95%;
+    max-width: 980px;
+    // border: yellow solid 2px;
+    margin: 0 auto;
+}
+
+
+.evetnContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 4em;
+    height: 100%;
+
+
+}
+
+.eventTxtMonth {
+    font-size:2em;
+    font-weight: bold;
+
+}
+
+.eventTxtDate {
+    font-size: 6em;
+    font-weight: bold;
+
+
+}
+
+
+.pageTxt
+
+{
+    font-size: 3em;
+    font-weight: bold;
+    color: #15476a;
+    margin: 1.2em;
+
+
+}
+
+.eventDato{
+    background: #5fa9a9;
+    width: 33%;
+
+    padding: 16px 25px;
+    text-align: left;
+    color: #15476a;
+}
+
+
+.eventInfo{
+    background: #15476a;
+    width: 66%;
+    padding: 0em 2em;
+    // color: #9ae0e0;
+    color: white;
+}
+
+
+.signupButton{
+    background: white;
+    color: #15476a;
+    width: 75px;
+    font-weight: bold;
+    padding: 0.5em;
+
+
+
+
+}
+
+
+@media (max-width: 600px) {
+    .evetnContainer {
+        flex-direction: column;
+    }
+
+    .eventDato,
+    .eventInfo
+    {
+        width: 100%;
+    }
+}
+
