@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "calibri", "arial", "sans-serif";
+    font-family: "calibri", "arial", sans-serif;
 }
 
 body {
@@ -9,15 +9,29 @@ body {
 
 /* Style the header */
 header {
-    background-color: #74b5e7;
+    background: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+// background-color: #a2a2a2;
     padding: 50px;
     text-align: center;
 }
 
+.log{
+
+    width: fit-content;
+    background: #5fa9a9;
+    padding: 2em;
+    color: #ffffff;
+    border: white solid 0.2em;
+
+}
+
+
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333333;
+    background-color: #15476a;
     padding-left: 18%;
 }
 
@@ -29,7 +43,7 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #333333;
+    background-color: #15476a;
 }
 
 
