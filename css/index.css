@@ -13,7 +13,7 @@ header {
     background: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    // background-color: #a2a2a2;
+    background-color: #ffffff;
     padding: 50px;
     text-align: center;
 }
@@ -133,19 +133,21 @@ header{
 
 
 
+/* Style for logo*/
+
+
+
+
 
 
 
 /* Style the Schedule*/
 
 
-
-
-
 .container {
     width: 95%;
     max-width: 980px;
-    // border: yellow solid 2px;
+    border: yellow solid 2px;
     margin: 0 auto;
 }
 
@@ -228,3 +230,140 @@ header{
     }
 }
 
+/* Style the Schedule*/
+
+
+/* Style Index Splash*/
+
+
+
+.splashContainer{
+    width: 85%;
+    max-width: 980px;
+    // border: purple solid 2px;
+    margin: 5em auto 0em auto ;
+    display: flex;
+
+
+
+
+}
+
+.splashColum1{
+    width: 50%;
+
+}
+
+.splashColum1Img{
+
+    height: 680px;
+    // border: yellow solid 2px;
+    background: crimson;
+    background: url("../images/Splash_praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
+    background-size: cover;
+
+}
+
+.splashColum1Txt{
+
+    height: 400px;
+    // border: yellow solid 2px;
+    background: #5fa9a9;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 25% 10% ;
+
+}
+
+.splashColum2{
+    width: 50%;
+
+}
+
+.splashColum2Img{
+    height: 600px;
+    // border: yellow solid 2px;
+
+    background: url("../images/splash_pawel-czerwinski-Tyg0rVhOTrE-unsplash.jpg");
+    background-size: cover;
+
+
+}
+
+.splashColum2Txt{
+    height: 480px;
+    background: #15476a;
+    font-weight: bold;
+    font-size: 3.5em;
+    color: #5fa9a9;
+    padding: 2em 1.5em ;
+
+}
+
+.splashLogoRow{
+    background: url("../images/splash_joel-filipe-WjnF1Tp-p3I-unsplash.jpg");
+    background-size: cover;
+    height: 480px;
+    width: 85%;
+    max-width: 980px;
+    margin: 0em auto;
+    padding-top: 180px;
+    padding-left: 30%;
+
+
+}
+
+.logoSplash{
+    width: fit-content;
+    background: #15476a;
+    padding: 2em;
+    color: #ffffff;
+    // border: white solid 4em;
+
+
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .splashContainer {
+        flex-direction: column;
+    }
+
+    .splashColum1Img{
+
+        height: 0px;
+    }
+
+    .splashColum1{
+        width: 100%;
+
+    }
+
+    .splashColum2{
+        width: 100%;
+
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 900px) {
+
+    .splashColum2Txt{
+        font-size: 2.5em;
+        padding: 4em 1.5em ;
+
+    }
+
+
+
+}
