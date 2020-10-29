@@ -18,6 +18,40 @@ header {
     text-align: center;
 }
 
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #15476a;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+.footer-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-list {
+    width: 50%;
+    list-style: none;
+}
+.footer-container-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.list-item {
+    margin: 0 10px;
+}
+
+
 .log{
 
     width: fit-content;
@@ -50,7 +84,7 @@ header {
 
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #5fa9a9;
     color: black;
 }
 
@@ -147,6 +181,7 @@ header{
     max-width: 980px;
     // border: yellow solid 2px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 
@@ -180,6 +215,7 @@ header{
     font-weight: bold;
     color: #15476a;
     margin: 1.2em;
+    text-align: center;
 
 
 }
@@ -209,10 +245,13 @@ header{
     width: 75px;
     font-weight: bold;
     padding: 0.5em;
+}
 
-
-
-
+.socialMediaIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    border-color: rgba(0,0,0,0);
 }
 
 

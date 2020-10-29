@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f968fd1-ff19-4227-a1dd-55eedef10463" name="Default Changelist" comment="" />
+    <list default="true" id="5f968fd1-ff19-4227-a1dd-55eedef10463" name="Default Changelist" comment="lagt til egen staff.css">
+      <change afterPath="$PROJECT_DIR$/images/profil1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/profil2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/profil3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/profil4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/staff-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staff.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/pawel-czerwinski-Tyg0rVhOTrE-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pawel-czerwinski-Tyg0rVhOTrE-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,11 +54,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jEX84RhNrNcX8xaNJzb7faBySk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,6 +77,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tobias\WebstormProjects\grid\MakeItResponsive\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -125,10 +144,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lagt til egen staff.css" />
     <option name="LAST_COMMIT_MESSAGE" value="lagt til egen staff.css" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="227" y="338" key="#Images" timestamp="1603976046833">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="227" y="338" key="#Images/0.0.1920.1050@0.0.1920.1050" timestamp="1603976046833" />
     <state width="713" height="286" key="GridCell.Tab.0.bottom" timestamp="1603972129024">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
