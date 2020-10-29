@@ -78,6 +78,7 @@ header > div {
   width: 13vw;
   height: 21.6vw;
   background-color: rgba(100, 100, 100, 1);
+  border-radius: 5px 5px 0 0;
 }
 
 .innovationCamp {
@@ -144,6 +145,7 @@ header > div {
   margin-left: 3%;
   margin-right: 3%;
   color: black;
+  border-radius: 0 5px 5px 5px;
 }
 
 .commonHiddenBox label {
@@ -218,7 +220,7 @@ textarea {
 
 @media only screen and (min-width: 1500px) {
   .tabContainer {
-    height: 71.6vw;    
+    height: 71.6vw;
   }
 
   .commonHiddenBox {
