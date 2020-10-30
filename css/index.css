@@ -3,7 +3,6 @@
     font-family: "calibri", "arial", sans-serif;
 }
 
-
 body {
     margin: 0;
     background: #ffffff;
@@ -14,6 +13,7 @@ header {
     background: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-color: #ffffff;
     padding: 50px;
     text-align: center;
@@ -27,7 +27,6 @@ footer {
     color: white;
     text-align: center;
     padding: 2em;
-    margin-top: 100px;
 }
 
 .footer-container {
@@ -177,100 +176,6 @@ header{
 
 
 
-/* Style the Schedule*/
-
-
-.container {
-    width: 95%;
-    max-width: 980px;
-    // border: yellow solid 2px;
-    margin: 0 auto;
-}
-
-
-.evetnContainer{
-    display: flex;
-    justify-content: space-between;
-    margin: 4em;
-    height: 100%;
-
-
-}
-
-.eventTxtMonth {
-    font-size:2em;
-    font-weight: bold;
-
-}
-
-.eventTxtDate {
-    font-size: 6em;
-    font-weight: bold;
-
-
-}
-
-
-.pageTxt
-
-{
-    font-size: 3em;
-    font-weight: bold;
-    color: #15476a;
-    margin: 1.2em;
-    text-align: center;
-
-
-}
-
-.eventDato{
-    background: #5fa9a9;
-    width: 33%;
-
-    padding: 16px 25px;
-    text-align: left;
-    color: #15476a;
-}
-
-
-.eventInfo{
-    background: #15476a;
-    width: 66%;
-    padding: 0em 2em;
-    // color: #9ae0e0;
-    color: white;
-}
-
-
-.signupButton{
-    background: white;
-    color: #15476a;
-    width: 75px;
-    font-weight: bold;
-    padding: 0.5em;
-}
-
-.socialMediaIcon {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px 30px 30px 30px;
-    border-color: rgba(0,0,0,0);
-}
-
-
-@media (max-width: 600px) {
-    .evetnContainer {
-        flex-direction: column;
-    }
-
-    .eventDato,
-    .eventInfo
-    {
-        width: 100%;
-    }
-}
-
-/* Style the Schedule*/
 
 
 /* Style Index Splash*/
