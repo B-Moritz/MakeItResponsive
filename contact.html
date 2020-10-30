@@ -10,10 +10,10 @@
 <body>
     <header role="banner" id="TitleImage">
       <div class="logo">
-      <h1>INOVA</h1>
+      <h1 role="title">INOVA</h1>
       </div>
     </header>
-    <div role="nav" class="topnav">
+    <div role="nav" aria-label="Navigation bar" class="topnav">
         <a href="./index.html">Overview</a>
         <a href="./schedule.html">Schedule</a>
         <a href="./staff.html">Staff</a>
@@ -24,7 +24,7 @@
 
       <form role="radiogroup" class="tabContainer">
         <!--Start contact navigation-->
-        <input role="radio" aria-checked="true" id="ContactUsCheckbox" class="checkboxCommon" name="tabNav" type="radio" checked="checked" tabindex="0">
+        <input role="radio" aria-checked="true" aria-label="Interested in our services" id="ContactUsCheckbox" class="checkboxCommon" name="tabNav" type="radio" checked="checked" tabindex="0">
         <label for="ContactUsCheckbox">
           <div class="contactUsGeneral hoverElem tabItem">
             <div id="ContactUsGeneralImage" class="imageContainer"></div>
@@ -33,7 +33,7 @@
         </label>
         <a href="#Section1" class="navLink borderRight"><h2>Interested in our services?</h2></a>
 
-        <input role="radio" id="InnovationCampCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
+        <input role="radio" aria-checked="false" aria-label="Questions to Innovation Camp?" id="InnovationCampCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
         <label for="InnovationCampCheckbox">
           <div class="innovationCamp hoverElem tabItem">
             <div id="InnovationCampImage" class="imageContainer"></div>
@@ -42,7 +42,7 @@
         </label>
         <a href="#Section2" class="navLink borderRight"><h2>Questions to innovation camp?</h2></a>
 
-        <input role="radio" id="SocialMediaCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
+        <input role="radio" aria-checked="false" aria-label="Meet us on social media" id="SocialMediaCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
         <label for="SocialMediaCheckbox">
           <div class="socialMedia hoverElem tabItem">
             <div id="SocialMediaImage" class="imageContainer"></div>
