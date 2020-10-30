@@ -2,8 +2,12 @@
   This file contains styles for the contact.html page.
 */
 
+/* Background image for title */
 #TitleImage {
   background: url("../images/joel-filipe-WjnF1Tp-p3I-unsplash.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*Main article*/
