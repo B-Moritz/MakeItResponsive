@@ -8,7 +8,7 @@ header {
     text-align: center;
 }
 
-
+/*Container for each person */
 .person-container{
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ header {
     height: 220px;
     float: right;
 }
-
+/* Style for mobile */
 @media screen and (max-width: 600px) {
     .person-container {
         flex-direction: column;
