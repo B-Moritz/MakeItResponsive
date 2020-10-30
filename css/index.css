@@ -27,6 +27,7 @@ footer {
     color: white;
     text-align: center;
     padding: 2em;
+    margin-top: 100px;
 }
 
 .footer-container {
@@ -46,6 +47,13 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     width: 50%;
+}
+
+.socialMediaIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    border-color: rgba(0,0,0,0);
 }
 
 .list-item {
@@ -97,6 +105,12 @@ article {
     padding-bottom: 150px;
 }
 
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
 .sideMarginForText {
     margin-left: 18%;
     margin-right: 18%;
@@ -141,6 +155,18 @@ h2 {
 .textInfo {
     float: left;
     padding-left: 20%;
+}
+
+.pageTxt
+
+{
+    font-size: 3em;
+    font-weight: bold;
+    color: #15476a;
+    margin: 1.2em;
+    text-align: center;
+
+
 }
 
 

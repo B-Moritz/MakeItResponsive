@@ -2,12 +2,6 @@
 /* Style the Schedule*/
 
 
-.container {
-    width: 95%;
-    max-width: 980px;
-    margin: 0 auto;
-    padding-bottom: 100px;
-}
 
 
 .evetnContainer{
@@ -31,9 +25,6 @@
 
 
 }
-
-
-
 
 .eventDato{
     background: #5fa9a9;
@@ -60,13 +51,6 @@
     width: 75px;
     font-weight: bold;
     padding: 0.5em;
-}
-
-.socialMediaIcon {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px 30px 30px 30px;
-    border-color: rgba(0,0,0,0);
 }
 
 
