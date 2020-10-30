@@ -170,7 +170,14 @@ h2 {
 }
 
 
-header{
+.pageTxt
+
+{
+    font-size: 3em;
+    font-weight: bold;
+    color: #15476a;
+    margin: 1.2em;
+    text-align: center;
 
 
 }

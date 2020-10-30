@@ -10,15 +10,7 @@
   background-size: cover;
 }
 
-/*Main article*/
-
-.heading1 {
-  color: #15476a;
-  font-size: 40px;
-  text-align: left;
-  padding-bottom: 20px;
-}
-
+/* Main article */
 .navLink {
   display: none;
 }
