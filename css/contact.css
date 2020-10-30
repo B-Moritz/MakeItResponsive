@@ -4,9 +4,6 @@
 
 #TitleImage {
   background: url("../images/joel-filipe-WjnF1Tp-p3I-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 /*Main article*/
@@ -31,7 +28,7 @@
   padding-top: 1px;
   padding-bottom: 1px;
   background-color: white;
-  color: white;
+  color: #5fa9a9;
   position: relative;
   overflow: auto;
   height: 1050px;
@@ -44,7 +41,7 @@
   padding: 1vw;
   width: 27.32%;
   height: 21.6vw;
-  background-color: rgba(100, 100, 100, 1);
+  background-color: #15476a;
 }
 
 .innovationCamp {
