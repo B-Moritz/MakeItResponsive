@@ -13,7 +13,7 @@
       <h1 role="title">INOVA</h1>
       </div>
     </header>
-    <div role="nav" aria-label="Navigation bar" class="topnav">
+    <div role="nav" aria-label="Main navigation bar" class="topnav">
         <a href="./index.html">Overview</a>
         <a href="./schedule.html">Schedule</a>
         <a href="./staff.html">Staff</a>
@@ -22,36 +22,40 @@
     <main role="main" class="paddingForArticle">
       <h1 class="pageTxt">Contact us</h1>
 
-      <form role="radiogroup" class="tabContainer">
-        <!--Start contact navigation-->
+      <form role="radiogroup" aria-label="Contact navigation" class="tabContainer">
+        <!-- Tab for contact us general -->
         <input role="radio" aria-checked="true" aria-label="Interested in our services" id="ContactUsCheckbox" class="checkboxCommon" name="tabNav" type="radio" checked="checked" tabindex="0">
         <label for="ContactUsCheckbox">
           <div class="contactUsGeneral hoverElem tabItem">
-            <div role="img" aria-noshow="true" id="ContactUsGeneralImage" class="imageContainer"></div>
+            <div role="img" id="ContactUsGeneralImage" class="imageContainer"></div>
+            <!-- Image credit:  mwitt1337 https://pixabay.com/no/photos/m%C3%B8te-business-arkitekt-kontor-team-2284501/ -->
             <h2>Interested in our services?</h2>
           </div>
         </label>
         <a href="#Section1" class="navLink borderRight"><h2>Interested in our services?</h2></a>
-
+        <!-- Tab for contact innovation camp -->
         <input role="radio" aria-checked="false" aria-label="Questions to Innovation Camp?" id="InnovationCampCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
         <label for="InnovationCampCheckbox">
           <div class="innovationCamp hoverElem tabItem">
-            <div id="InnovationCampImage" class="imageContainer"></div>
+            <div role="img" id="InnovationCampImage" class="imageContainer"></div>
+            <!-- Image credit: StartupStockPhotos https://pixabay.com/photos/startup-meeting-brainstorming-594090/ -->
             <h2>Questions to innovation camp?</h2>
           </div>
         </label>
         <a href="#Section2" class="navLink borderRight"><h2>Questions to innovation camp?</h2></a>
-
+        <!-- Tab for social media -->
         <input role="radio" aria-checked="false" aria-label="Meet us on social media" id="SocialMediaCheckbox" class="checkboxCommon" name="tabNav" type="radio" tabindex="0">
         <label for="SocialMediaCheckbox">
           <div class="socialMedia hoverElem tabItem">
             <div id="SocialMediaImage" class="imageContainer"></div>
+            <!-- Image credit:  https://de.cleanpng.com/png-4vp9ck/download-png.html -->
             <h2>Meet us on social media</h2>
           </div>
         </label>
         <a href="#Section3" class="navLink"><h2>Meet us on social media</h2></a>
 
         <!--Start contact boxes-->
+        <!-- General contact box -->
         <div class="hiddenBox1 commonHiddenBox" id="Section1">
           <h3>Send us a message if you are interested in our services:</h3>
           <p>Please fill out this web form, send us an e-mail or make a call.</p>
