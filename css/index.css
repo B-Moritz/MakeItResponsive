@@ -13,6 +13,7 @@ header {
     background: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-color: #ffffff;
     padding: 50px;
     text-align: center;
