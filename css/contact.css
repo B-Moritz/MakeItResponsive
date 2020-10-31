@@ -26,7 +26,8 @@
   background-color: white;
   color: white;
   position: relative;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   height: 1050px;
 }
 
