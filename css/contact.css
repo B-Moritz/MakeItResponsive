@@ -89,7 +89,7 @@
 
 .hoverElem:hover {
   background-color: #5fa9a9;
-  color: #15476a;
+  color: black;
 }
 
 .commonHiddenBox {
@@ -102,7 +102,7 @@
   width: 94%;
   margin-left: 3%;
   margin-right: 3%;
-  color: #15476a;
+  color: black;
 }
 
 .commonHiddenBox label {
@@ -116,7 +116,7 @@
 
 #ContactUsCheckbox:checked ~ label .contactUsGeneral, #InnovationCampCheckbox:checked ~ label .innovationCamp, #SocialMediaCheckbox:checked ~ label .socialMedia {
   background-color: #5fa9a9;
-  color: #15476a;
+  color: black;
   margin-bottom: 0;
 }
 
@@ -143,7 +143,7 @@ textarea {
 
 [type*="submit"]:hover {
   background-color: #15476a;
-  color: #5fa9a9;
+  color: white;
 }
 
 .socialMediaIcon {
@@ -227,8 +227,8 @@ textarea {
     font-size: 4vw;
   }
   .tabItem {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
   .paddingForArticle {
     padding-left: 10vw;
