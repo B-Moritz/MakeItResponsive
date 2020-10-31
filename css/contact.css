@@ -226,6 +226,10 @@ textarea {
   .tabItem h2 {
     font-size: 4vw;
   }
+  .tabItem {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
   .paddingForArticle {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -257,6 +261,7 @@ textarea {
   }
   .tabItem h2 {
     margin: 2.5vw 0;
+    font-size: 3.8vw;
   }
   .commonHiddenBox {
     top: 50vw;
