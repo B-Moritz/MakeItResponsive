@@ -233,7 +233,7 @@ h2 {
     background: #5fa9a9;
     font-weight: bold;
     font-size: 1.2em;
-    color: #ffffff;
+    color: #00394f;
     padding: 25% 10% ;
 
 }
@@ -258,7 +258,7 @@ h2 {
     background: #15476a;
     font-weight: bold;
     font-size: 3.5em;
-    color: #5fa9a9;
+    color: #ffffff;
     padding: 2em 1.5em ;
 
 }
@@ -298,7 +298,7 @@ h2 {
 
     .splashColum1Img{
 
-        height: 0px;
+        height: 400px;
     }
 
     .splashColum1{
